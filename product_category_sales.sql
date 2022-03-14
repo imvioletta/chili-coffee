@@ -7,4 +7,4 @@ left join `analytics-engineers-club.coffee_shop.products` as p
     on oi.product_id = p.id
  
 group by p.category
-limit 20;
+limit 15;
